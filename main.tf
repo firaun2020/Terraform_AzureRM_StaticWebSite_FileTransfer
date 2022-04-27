@@ -20,7 +20,7 @@ resource "azurerm_resource_group" "web_rg" {
 
 # Create Azure Storage account
 resource "azurerm_storage_account" "storage_account" {
-  name                     = "${var.storage_account_name}terraform${random_string.rand_string.id}"
+  name                     = "${var.storage_account_name}xx${random_string.rand_string.id}"
   resource_group_name      = azurerm_resource_group.web_rg.name
   location                 = azurerm_resource_group.web_rg.location
   account_tier             = var.storage_account_tier
