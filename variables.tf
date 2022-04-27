@@ -42,7 +42,3 @@ variable "source_file_path" {
   type = string
 }
 
-variable "source_multiple_file_path_directory" {
-  description = "Give path to the folder where your static web content is kept"
-  type = string
-}
