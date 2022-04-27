@@ -4,4 +4,4 @@
 - The module will accept a path where your local files are kept & then will upload the index.html file to the right container in storage account
 
 
-Version 1.0.1
+Version 1.0.2
